@@ -1,0 +1,635 @@
+<!doctype html>
+<html lang="tr">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="css/style.css" >
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <title>Kişisel Web Sitem</title>   
+  </head>
+
+  <body>
+    <header class="navbar navbar-expand-sm navbar-dark bg-info">
+        <div class="container" id="ayar">
+          <div class="navbar-header">
+            <a class="pad0" href="https://www.nazilli.bel.tr/" target="_blank">
+              <img src="img/logo.png" alt="Nazilli Belediyesi" title="Nazilli Belediyesi" width="60px" height="60px">
+            </a>  
+            <span class="text-light logo"><strong>NAZİLLİ BELEDİYESİ</strong></span>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>     
+          </div>  
+ 
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto ">
+                <li class="nav-item">
+                  <a class="nav-link" href="#hakkımda"> <i class="glyphicon glyphicon-home"></i> Hakkında</a>      
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#özgeçmiş"><i class="glyphicon glyphicon-folder-open"></i> Özgeçmiş</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                   <i class="glyphicon glyphicon-picture"></i> Şehrim
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#tarihçe">Tarihçe</a>
+                    <a class="dropdown-item" href="#tarım">Tarım</a>
+                    <a class="dropdown-item" href="#kültür">Kültür</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#gezilecekyerler">Gezilecek Yerler</a>
+                  </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#mirasımız"><i class="glyphicon glyphicon-flag"></i> Mirasımız</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#iletişim">	<i class="glyphicon glyphicon-earphone"></i> İletişim</a>
+                </li>
+              </ul>
+
+              <ul class="nav navbar-nav navbar-right">
+                  <li> <button type="button" class="btn btn-primary">
+                    <span class="glyphicon glyphicon-user"></span> Üye Ol</button>
+                  </li>
+                  <li><button onclick="location.href='login.html'" type="submit" class="btn btn-success">
+                    <span class="glyphicon glyphicon-log-in"></span> Giriş</button>
+                 </li>
+              </ul>
+            </div>
+        </div>
+  
+    </header>
+
+    <main>  
+      <div class="container"> 
+
+        <a name="hakkımda"><h2>Hakkında</h2></a>
+        <div class="row">    
+          <div class="col-md-2">
+            <div class="cerceve"> 
+              <img src="img/FatihDurmaz.jpeg" alt="FatihDurmaz" title="FatihDurmaz" width="175" height="200">
+            </div>         
+          </div>
+          <div class="col-md-10">
+            <h4>Ben ve Memleketim Hakkında Web Sitesi</h4>
+            <p>
+              Bu sitede size kendimden ve şehrimimden bahsedeceğim.Bu sitedeki amacım kendimi ve şehrimi en iyi şekilde tanıtmak ve size sunmaktır.
+              Öncelikle bu sitede özgeçmiş,şehrim,ve mirasımız adlı alt sayfalar bulunmaktadır.
+              Bu sayfadaki bilgiler araştırma sonucu olup size ulaşan bilgilerin doğruluğu gözetilmiştir.
+              Sayfa sonunda bizimle iletişime geçebileceğiniz adresler bulunup, gerekli şikayetlerinizi ve mesajlarınızı bize gönderebileciğiniz bir form bulunmaktadır.
+              İyi eğlenceler.
+            </p>
+          </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-4 pad10">
+              <div class="panel panel-danger">
+                <div class="panel-heading">
+                  <h3 class="panel-title" >
+                    <span class="glyphicon glyphicon-knight"></span> Hobilerim
+                  </h3>
+                </div>
+                <div class="panel-body">
+                  <ul class="media-list">
+                    <li class="media">
+                      <div class="media-left">
+                        <a href="https://tr.wikipedia.org/wiki/Satran%C3%A7" target="_blank">
+                          <img src="img/satranç.jpg" alt="Satranç" title="Satranç" width="60px" height="60px">
+                        </a>
+                      </div>
+                      <div class="media-body">
+                        <h4 class="media-heading">
+                          Satranç
+                        </h4>
+                        <p>
+                          Satranca ortaokul hocamın desteğiyle başlayıp birçok turnuvaya katıldım.
+                        </p>
+                      </div>
+                    </li>
+                    <li class="media">
+                      <div class="media-left">
+                        <a href="https://tr.pinterest.com/akulaberoglu/resim/" target="_blank">
+                          <img src="img/resim.jpg" alt="Resim" title="Resim" width="60px" height="60px">
+                        </a>  
+                      </div>
+                      <div class="media-body">
+                        <h4 class="media-heading">
+                          Resim
+                        </h4>
+                        <p>
+                          Resim çizmeyi seviyorum ve karakalem çizim yapıyorum.Bu konuda yetenekliyimdir.
+                        </p>
+                      </div>
+                    </li>
+                    <li class="media">
+                      <div class="media-left">
+                        <a href="https://www.puzzlesepeti.com/" target="_blank">
+                          <img src="img/puzzle.jpg" alt="Puzzle" title="Puzzle" width="60px" height="60px">
+                        </a>
+                      </div>
+                      <div class="media-body">
+                        <h4 class="media-heading">
+                          Puzzle
+                        </h4>
+                        <p>
+                          Boş vakitlerimde puzzle yapıyorum.
+                        </p>
+                      </div>
+                    </li>
+                  </ul>
+                  <a href="https://www.sukelalist.com/en-keyifli-hobiler" class="btn btn-danger btn-block" target="_blank">Diğer hobilerim >></a>
+                </div>
+              </div>
+            </div> 
+            
+            <div class="col-md-4 pad10">
+              <div class="panel panel-success">
+                <div class="panel-heading">
+                  <h3 class="panel-title" >
+                    <span class="glyphicon glyphicon-cd"></span> Sevdiğim Sporlar
+                  </h3>
+                </div>
+                <div class="panel-body">
+                  <ul class="media-list">
+                    <li class="media">
+                      <div class="media-left">
+                        <a href="https://www.fanatik.com.tr/futbol" target="_blank">
+                          <img src="img/futbol.jpg" alt="Futbol" title="Futbol" width="60px" height="60px">
+                        </a>
+                      </div>
+                      <div class="media-body">
+                        <h4 class="media-heading">
+                          Futbol
+                        </h4>
+                        <p>
+                          Futbolun hem oynamasını hem de seyretmesini seviyorum.Galatasarayı tutuyorum.
+                        </p>
+                      </div>
+                    </li>
+                    <li class="media">
+                      <div class="media-left">
+                        <a href="https://www.tbf.org.tr/" target="_blank">
+                          <img src="img/basketbol.jpg" alt="Basketbol" title="Baketbol" width="60px" height="60px">
+                        </a>  
+                      </div>
+                      <div class="media-body">
+                        <h4 class="media-heading">
+                          Basketbol
+                        </h4>
+                        <p>
+                          Arkadaşlarımla oynarız.
+                        </p>
+                      </div>
+                    </li>
+                    <li class="media">
+                      <div class="media-left">
+                        <a href="https://tr.wikipedia.org/wiki/Masa_tenisi" target="_blank">
+                          <img src="img/masatenisi.jpg" alt="Masatenisi" title="Masatenisi" width="60px" height="60px">
+                        </a>
+                      </div>
+                      <div class="media-body">
+                        <h4 class="media-heading">
+                          Masa tenisi
+                        </h4>
+                        <p>
+                          Masa tenisini lisedeyken çok oynamıştım.
+                        </p>
+                      </div>
+                    </li>
+                  </ul>
+                  <a href="https://www.sportive.com.tr/tum-spor-branslari" class="btn btn-success btn-block" target="_blank">Diğer Sporlar >></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4 pad10">
+              <div class="panel panel-info">
+                <div class="panel-heading">
+                  <h3 class="panel-title" >
+                    <span class="glyphicon glyphicon-apple"></span> En Sevdiğim Yemekler
+                  </h3>
+                </div>
+                <div class="panel-body">
+                  <ul class="media-list">
+                    <li class="media">
+                      <div class="media-left">
+                        <a href="https://youtu.be/14DOjhJdHrM" target="_blank">
+                          <img src="img/Keşkek.jpg" alt="Keşkek" title="Keşkek" width="60px" height="60px">
+                        </a>
+                      </div>
+                      <div class="media-body">
+                        <h4 class="media-heading">
+                          Keşkek
+                        </h4>
+                        <p>
+                          Yöremizede ünlü bir yemektir.Kazanlarda buğday etle pişer ve salçalı sosla servis edilir.
+                        </p>
+                      </div>
+                    </li>
+                    <li class="media">
+                      <div class="media-left">
+                        <a href="https://youtu.be/5d2aUXB2mEQ" target="_blank">
+                          <img src="img/patates.jpg" alt="Patates" title="Patates" width="60px" height="60px">
+                        </a>  
+                      </div>
+                      <div class="media-body">
+                        <h4 class="media-heading">
+                          Patates kızartması
+                        </h4>
+                        <p>
+                          Patatesin her türlü halini yerim.
+                        </p>
+                      </div>
+                    </li>
+                    <li class="media">
+                      <div class="media-left">
+                        <a href="https://yemek.com/tarif/patlican-dolmasi/" target="_blank">
+                          <img src="img/dolma.jpg" alt="Dolma" title="Dolma" width="60px" height="60px">
+                        </a>
+                      </div>
+                      <div class="media-body">
+                        <h4 class="media-heading">
+                          Patlıcan dolması
+                        </h4>
+                        <p>
+                          Annem çok güzel yapar özellikle kurutulmuş patlıcandan.
+
+                        </p>
+                      </div>
+                    </li>
+                  </ul>
+                  <a href="https://aydin.ktb.gov.tr/TR-64515/yoresel-yemekler.html" class="btn btn-info btn-block" target="_blank">Diğer Yemekler >></a>
+                </div>
+              </div>
+            </div>
+        </div>
+
+        <a name="özgeçmiş"><h2>Özgeçmiş</h2></a>
+        <div class="row">
+          <div class="col-md-6">
+            <table border="2">
+              <thead>
+                <tr>
+                  <th colspan="4" style="text-align: center;">Kişisel Bilgiler</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th>Adı Soyadı:</th>
+                  <td colspan="3"> Fatih Durmaz</td>
+                </tr>
+                <tr>
+                  <th>Doğum Yeri:</th>
+                  <td colspan="3"> Nazilli</td>
+                </tr>
+                <tr>
+                  <th>Doğum Tarihi:</th>
+                  <td colspan="3"> 05.06.2001</td>
+                </tr>
+                <tr>
+                  <th>Cep Tel:</th>
+                  <td colspan="3">0538 777 40 43</td>
+                </tr>
+                <tr>
+                  <th>E-mail:</th>
+                  <td colspan="3">fatih.durmaz1@ogr.sakarya.edu.tr</td>
+                </tr>
+                <tr>
+                  <th>Eğitim:</th>
+                  <td>Cumhuriye İ.Ö.O</td>
+                  <td>Nazilli Anadolu Lisesi</td>
+                  <td>Sakarya Üniversitesi</td>
+                </tr>
+                <tr>
+                  <th>Katıldığı Projeler:</th>
+                  <td colspan="2">Tübitak Fizik Projesi</td>
+                  <td>Siber Güvenlik Etkinliği</td>
+                </tr>
+                <tr>
+                  <th>İlgi Alanları:</th>
+                  <td>Oyun ve animasyon tasarımı</td>
+                  <td colspan="2">Yazılım ve yapay zeka mekaniği</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="col-md-6">
+            <p>
+              Ben Fatih Durmaz 2001 yılında Aydın'ın Nazilli ilçesinde dünyaya geldim. Babamın adı Mehmet Baki anneminki ise Nurseldir.
+              Beş kişilik bir aile olup 2 tane ablam vardır.İlköğrenimimi mahallemizde bulunan Cumhuriyet İ.Ö.O'da tamamladım.
+              Girdiğim TEOG sınavı sonrasında Nazilli Anadolu lisesini kazandım.İlgilendiğim ve sevdiğim için 10.sınıftan sonra sayısal bölümü seçtim.
+              Çok sıkı bir çalışma sonucu YKS sınavı sonunda istediğim bölümlerden ve istediğim üniversitelerden Sakarya Üniversitesi Bilgisayar Mühendisliği bölümünü kazandım.
+              Şuanda da bu üniversitede öğrenimime devam ediyorum.İleride yazılım üzerinde ilerlemeyi düşünüyorum umarım ileride iyi bir yazılımcı olup ülkeme hizmet edebilirim.
+            </p>
+          </div>
+        </div>
+
+        <h2>Şehrim</h2>
+        <div class="row pad10">
+          <div class="col-md-8">
+            <a name="tarihçe"><h3>Tarihçe</h3></a>
+            <p>
+              Nazilli, Ege Bölgesinin en eski yerleşim merkezlerin­den birisidir. İlçe merkezinin ilk yerleşim yeri hakkında kesin bilgiler bulunmamaktadır. 
+              Ancak Karya bölgesinde kalan Menderes Vadisine Luviler'in yerleştiği bilinmektedir.
+              Bu bölgede ilk yerleşim merkezi Lidyalıların kurduğu antik Mas tavra kentidir. 
+              O dönemlerde bölgenin batısındaki İyonya kentlerinin ekonomik alanda gelişmesi ve kentin Ege ve Önasya ülkeleri arasındaki ticaret yolu (Hierapolis-Tripolis-Mas Tavra-Nysa-Tralleis-Magnesia-Efes) üzerinde bulun­ması Nazilli yöresinin önem kazanmasına ve gelişmesini sağladı. 
+              İlçedeki tren istasyonunun Türkiye'nin ilk demiryolu hattı olan İzmir-Aydın hattının üzerinde olması da ilçenin hızla nüfuslanmasını sağlamıştır. Ayrıca 1937 yılında Atatürk'ün açılışını yaptığı Nazilli Sümerbank Fabrikası Türkiye'nin ilk basma fabrikasıdır.
+              Fabrika içinde 40 yataklı hasta kabul edilebilen bir hastane, bir eczane, bir de laboratuvar vardı.
+              Ancak bu fabrika 2002 yılında kapatılmış ve yerleşkesi Adnan Menderes Üniversitesi'ne devredilmiştir.
+            </p>
+          </div>
+          <div class="col-md-4">
+            <a href="https://tr.wikipedia.org/wiki/S%C3%BCmerbank" target="-blank" title="Atatürk ve Sümerbank">
+              <img src="img/Atatürk.jpg" alt="" width="350" height="250">
+            </a>
+          </div>
+        </div>
+        <div class="row pad10">
+          <div class="col-md-8">
+            <a name="tarım"><h3>Tarım</h3></a>
+            <p>
+              Arazi varlığı, coğrafi konumu, iklim koşulları, su kay­nakları ve toprak yapısının uygunluğu Nazilli'de tarım ürün­leri ve bitkiler açısından büyük bir çeşitlilik ve zenginlik gös­terir.
+              Öyle ki özel iklim koşulları gerektiren çay ve bir­kaç tarım bitkisinin dışında Türkiye'de yetişen diğer bitkiler Na­zilli'de de üretilir.
+              Nazillinin güneyinde bulunan ve Menderes Irmağı ile beslenen Nazilli Ovasında ağırlıklı olarak pamuk, yonca ve mısır üretilir. 
+              Aynı zamanda Nazilli dağ köyleri, kestane, incir ve zeytinin en iyisini yetiştirmekle meşhurdur.
+            </p>
+          </div>
+          <div class="col-md-4">
+            <a href="https://www.sesgazetesi.com.tr/haber/3434882/nazillide-tarim-ve-zeybeklik-festivali" target="_blank" title="tarımürünleri">
+              <img src="img/tarım.jpg" alt="" width="350" height="250">
+            </a>
+          </div>
+        </div>
+        <div class="row pad10">
+          <div class="col-md-8">
+            <a name="kültür"><h3>Kültür</h3></a>
+            <p>
+              Kar Helvası olarak adlandırılan ilçeye bağlı Bozdoğan yerleşkesinin Madran Dağı'ndan getirilen kar ve şerbet ile yapılan özgün yaz içeceği diğer güney yörelerinin benzer içeceklerini andırır.
+              Ayrıca, Nazilli Pidesi olarak adlandırılan kıymalı, kaşarlı, peynirli, yumurtalı, otlu, kuşbaşılı, karışık ve tahinli çeşitleri bulunan pide çeşitleri de yöreye özgüdür.
+              Gencer macunu, Nazilli ve yöresinde Kurban ve Şeker Bayramının son günü büyük kazanlar içerisinde yapılıp satılan, temelde üzüm suyu ve şeker ihtiva eden beyaz ve akışkan macundur.
+            </p>
+          </div>
+          <div class="col-md-4">
+            <a href="https://youtu.be/ZQIuhT_89DA" target="_blank" title="karhelvası">
+              <img src="img/karhelvası.jpg" alt="" width="350" height="250">
+            </a>
+          </div>
+        </div>
+
+        <a name="gezilecekyerler"><h2>Gezilecek Yerler</h2></a>
+        <div>
+          <div id="carouselExampleCaptions" class="carousel slide" data-interval="5000" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+              <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+              <li data-target="#carouselExampleCaptions" data-slide-to="3"></li>
+              <li data-target="#carouselExampleCaptions" data-slide-to="4"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="img/nysa.jpg" class="d-block w-100">
+                <div class="carousel-caption d-none d-md-block">
+                  <h4>Nysa Antik Kenti</h4>
+                  <p> Eskiden Karia olarak adlandırılan bölge Helenistik devirde,  
+                    M.Ö. 3. yüzyılın ilk yarısında Seleukos’un oğlu I. Anthiochos Soter tarafından kurulmuştur.
+                    İki şehir olarak kurulan kenti bir köprü birbirine bağlamaktadır. Burada tiyatro, Gymnasion, agora, tünel vb. yapılar mevcuttur.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="img/afrodisias.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h4>Afrodisias Antik Kenti</h4>
+                  <p>MÖ 5. yüzyılda kurulan kent, Roma İmparatorluğu döneminde gelişmiş, MÖ 1. yüzyıl ile MS 5. yüzyıllar arasında,
+                     başta heykelcilik olmak üzere önemli bir sanat merkezi haline gelmiş,
+                     Afrodit tapınağıyla ve Afrodit adına yapılan törenlerle ün salmıştır.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="img/arpazkalesi.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h4>Arpaz Kalesi</h4>
+                  <p>Nazilli’ye bağlı Esenköy’de bulunan yapı grubu, bir Karya kenti olan Harpasa Kalesi’nin eteklerinde kurulmuştur. 
+                    Bazı kaynaklarda buranın ismi Arpaz Kulesi olarak da geçmektedir. Akçay’a kadar uzanan ekili araziyi kapsamı içine alan büyük çiftlik işletmesinin sahibi, 
+                    Arpaz Beyleri tarafından XIX.yüzyıl başlarında inşa ettirilmiştir.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="img/uzunçarşı.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h4>Uzun Çarşı</h4>
+                  <p>Nazilli'nin en işlek muhitlerinden olan ve şehir merkezinde olan alan yerel olarak Uzun Çarşı olarak isimlendirilmektedir.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="img/sümerpark.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h4>Sümer Park</h4>
+                  <p>Yaklaşık 3 km’lik Toprak koşu pisti , hayvanat bahçesi ,lunaparkı, piknik alanlarıyla Nazilli’nin en güzel spor parkı olma özelliğine sahiptir.</p>
+                </div>
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">geri</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">ileri</span>
+            </a>
+          </div>
+        </div>  
+
+      <a name="mirasımız"><h2>Mirasımız</h2></a>
+      <div class="row pad10">
+        <div class="col-md-4">
+          <a href="https://www.tff.org/Default.aspx?pageID=395&kulupID=91" target="_blank">
+            <img src="img/nazillibelediyespor.png" alt="" width="350" height="350">
+          </a>
+        </div>
+        <div class="col-md-8">
+          <h3>
+            Nazilli Belediyespor
+          </h3>
+          <p>
+            1967'de kurulup daha sonra kapanan Nazillispor ile Nazilli Belediyespor farklı takımlardır.
+            1984 yılında 3. Türkiye Liginin yeniden kurulmasıyla Nazilli'nin de 3. Türkiye Liginde temsil edilmesi için çeşitli çabalar sonucunda; Yeni Nazillispor kulübü kuruldu. Kuruluş aşamasında takımın renkleri sarı lacivertti ancak eski Nazillililerin isteği doğrultusunda takımın renkleri siyah beyaz oldu.
+            Futbolda 1984-1992 yılları arasında 3. Türkiye Liginde mücadele eden Yeni Nazillispor 1991-1992 sezonunda şampiyon olarak 2. Türkiye Ligine (Şimdiki 1. Lig) çıktı. Aynı sezon küme düşerek, 1992-1993 sezonu sonunda 3. Türkiye Ligine geri döndü.
+            Yeni Nazillispor Kulübü 1998-1999 yılında 3. Türkiye Liginde şampiyon olarak tekrar 2. Türkiye Ligine (Şu anki 1. Lig) yükseldi.
+            2001-2002 Sezonunda 2. Lig kurulmasının üzerine bu lige düşerek burada oynamaya başladı.
+            2006-2007 sezonuna kadar 2. Ligde mücadele eden siyah inciler 2006-2007 sezonunda 3. Lige düştü. 5 senelik 3. Lig mücadelesinin ardından 2011-2012 sezonunda şampiyon olarak Spor Toto 2. Lig'e yükseldi. Şampiyonluk kupasını ligin son maçında TFF Başkanı Yıldırım Demirören in elinden aldı. 2017-18 2. Lig Beyaz grupta yer alan Nazilli Belediyespor grubunu 16. tamamlayarak 3. Lig'e düştü.
+            2018-19 3. Lig 1. grupta yer alan Nazilli Belediyespor Ahmet Yavuz yönetiminde çıktığı 32 maçta 17 galibiyet, 14 beraberlik ve 1 mağlubiyet aldı. 65 puan toplayarak grubunu 2. tamamladı ve play-off oynamaya hak kazandı. Play-off yarı finalinde Ergene Velimeşespor'a 2 maç sonucunda 0-2 ve 1-0 lık maçlar sonucunda elenerek 2. Lig'e çıkma şansını kaybetti.
+            Nazilli Belediyespor Kulübü futbolun yanı sıra hentbol, voleybol, masa tenisi, basketbol, satranç, güreş, plaj voleybolu ve tenis gibi spor dallarında faaliyetini sürdürmektedir.
+          </p>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <a name="iletişim"><h2>İletişim</h2></a>
+        <div class="row well"> 
+          <div class="container">
+            <div class="col-md-1">
+              <ul>
+                <li>
+                  <a href="https://tr-tr.facebook.com/" target="_blank" class="icoFacebook"><i class="fa fa-facebook-square" id="sosyal"></i></a>
+                </li>
+                <li>
+                  <a href="https://twitter.com/explore" target="_blank" class="icoTwitter"><i class="fa fa-twitter" id="sosyal"></i></a>     
+                </li>
+                <li>
+                  <a href="https://www.instagram.com/" target="_blank" class="icoInstagram"><i class="fa fa-instagram" id="sosyal"></i></a>   
+                </li>
+                <li>
+                  <a href="https://tr.linkedin.com/" target="_blank" class="icoLinkedin"><i class="fa fa-linkedin" id="sosyal"></i></i></a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-md-4">
+              <ul>
+                <li>
+                  <a href="https://www.google.com/maps/place/Cumhuriyet,+09900+Nazilli%2FAyd%C4%B1n/@37.9121542,28.3225947,15z/data=!3m1!4b1!4m5!3m4!1s0x14b8b8c21f6d0b77:0xc35a9a93b51ef118!8m2!3d37.9116989!4d28.3308532" target="_blank">
+                    <i class="fa fa-map-marker" id="sosyal"></i> Cumhuriyet mah. Nazilli/Aydın</a>
+                </li>
+                <li>
+                  <a href="tel:+90 538 777 40 43"><i class="fa fa-phone-square" id="sosyal"></i> 0538 777 40 43</a>
+                </li>
+                <li>
+                  <a href="https://support.google.com/mail/answer/8494?co=GENIE.Platform%3DDesktop&hl=tr" target="_blank"><i class="fa fa-envelope" id="sosyal"></i> fatih.durmaz1@ogr.sakarya.edu.tr</a>
+                </li>
+              </ul>
+            </div>
+            
+            <form action="form.php" method="POST">
+              <div class="col-md-3">
+                <label>Kullanıcı Adı:</label> <br>
+                <input type="text" name="kullanıcıadı" placeholder="Kullanıcı adı..." id="username"> <br>
+
+                <label for="email">E-mail:</label> <br>
+                <input type="email" name="email" placeholder="E-mail... "><br>
+
+                <label for="radio">Cinsiyet:</label>
+                <input type="radio" name="cinsiyet" value="Erkek">Erkek
+                <input type="radio" name="cinsiyet" value="Kadın">Kadın <br>
+
+                <label>Memleketiniz:</label>
+                <select name="memleketiniz">
+                  <option value="0" selected>Şehir Seçiniz</option>
+                  <option value="Adana">Adana</option>
+                  <option value="Adıyaman">Adıyaman</option>
+                  <option value="Afyonkarahisar">Afyonkarahisar</option>
+                  <option value="Ağrı">Ağrı</option>
+                  <option value="Amasya">Amasya</option>
+                  <option value="Ankara">Ankara</option>
+                  <option value="Antalya">Antalya</option>
+                  <option value="Artvin">Artvin</option>
+                  <option value="Aydın">Aydın</option>
+                  <option value="Balıkesir">Balıkesir</option>
+                  <option value="Bilecik">Bilecik</option>
+                  <option value="Bingöl">Bingöl</option>
+                  <option value="Bitlis">Bitlis"</option>
+                  <option value="Bolu">Bolu</option>
+                  <option value="Burdur">Burdur</option>
+                  <option value="Bursa">Bursa</option>
+                  <option value="Çanakkale">Çanakkale</option>
+                  <option value="Çankırı">Çankırı</option>
+                  <option value="Çorum">Çorum</option>
+                  <option value="Denizli">Denizli</option>
+                  <option value="Diyarbakır">Diyarbakır</option>
+                  <option value="Edirne">Edirne</option>
+                  <option value="Elazığ">Elazığ</option>
+                  <option value="Erzincan">Erzincan</option>
+                  <option value="Erzurum">Erzurum</option>
+                  <option value="Eskişehir">Eskişehir</option>
+                  <option value="Gaziantep">Gaziantep</option>
+                  <option value="Giresun">Giresun</option>
+                  <option value="Gümüşhane">Gümüşhane</option>
+                  <option value="Hakkâri">Hakkâri</option>
+                  <option value="Hatay">Hatay</option>
+                  <option value="Isparta">Isparta</option>
+                  <option value="Mersin">Mersin</option>
+                  <option value="İstanbul">İstanbul</option>
+                  <option value="İzmir">İzmir</option>
+                  <option value="Kars">Kars</option>
+                  <option value="Kastamonu">Kastamonu</option>
+                  <option value="Kayseri">Kayseri</option>
+                  <option value="Kırklareli">Kırklareli</option>
+                  <option value="Kırşehir">Kırşehir</option>
+                  <option value="Kocaeli">Kocaeli</option>
+                  <option value="Konya">Konya</option>
+                  <option value="Kütahya">Kütahya</option>
+                  <option value="Malatya">Malatya</option>
+                  <option value="Manisa">Manisa</option>
+                  <option value="Kahramanmaraş">Kahramanmaraş</option>
+                  <option value="Mardin">Mardin</option>
+                  <option value="Muğla">Muğla</option>
+                  <option value="Muş">Muş</option>
+                  <option value="Nevşehir">Nevşehir</option>
+                  <option value="Niğde">Niğde</option>
+                  <option value="Ordu">Ordu</option>
+                  <option value="Rize">Rize</option>
+                  <option value="Sakarya">Sakarya</option>
+                  <option value="Samsun">Samsun</option>
+                  <option value="Siirt">Siirt</option>
+                  <option value="Sinop">Sinop</option>
+                  <option value="Sivas">Sivas</option>
+                  <option value="Tekirdağ">Tekirdağ</option>
+                  <option value="Tokat">Tokat</option>
+                  <option value="Trabzon">Trabzon</option>
+                  <option value="Tunceli">Tunceli</option>
+                  <option value="Şanlıurfa">Şanlıurfa</option>
+                  <option value="Uşak">Uşak</option>
+                  <option value="Van">Van</option>
+                  <option value="Yozgat">Yozgat</option>
+                  <option value="Zonguldak">Zonguldak</option>
+                  <option value="Aksaray">Aksaray</option>
+                  <option value="Bayburt">Bayburt</option>
+                  <option value="Karaman">Karaman</option>
+                  <option value="Kırıkkale">Kırıkkale</option>
+                  <option value="Batman">Batman</option>
+                  <option value="Şırnak">Şırnak</option>
+                  <option value="Bartın">Bartın</option>
+                  <option value="Ardahan">Ardahan</option>
+                  <option value="Iğdır">Iğdır</option>
+                  <option value="Yalova">Yalova</option>
+                  <option value="Karabük">Karabük</option>
+                  <option value="Kilis">Kilis</option>
+                  <option value="Osmaniye">Osmaniye</option>
+                  <option value="Düzce">Düzce</option>
+                </select> <br>  
+              </div>
+              <div class="col-md-3">
+                <label>En beğendiğiniz kısım:</label> <br>
+                <input type="checkbox" name="bölüm" value="Hakkında">Hakkımda
+                <input type="checkbox" name="bölüm" value="Mirasımız">Mirasımız
+                <input type="checkbox" name="bölüm" value="Şehrim">Şehrim <br>
+
+                <label>Mesaj:</label><br>
+                <textarea name="mesaj" placeholder="Mesaj..." cols="30" rows="4"></textarea> <br><br>
+              </div>
+              <div class="col-md-1">
+                <br><br>
+                <input type="submit" value="gönder" name="gönder"><br>
+                <input type="reset" value="temizle" name="temizle">
+              </div>
+            </form>
+          </div>
+        </div>
+    </footer>
+   
+  </body>
+</html>

@@ -1,0 +1,44 @@
+body{
+  background-color: rgb(155, 213, 228) !important;
+ }
+ .container{
+  max-width: 90%;
+}
+.pad0{
+  padding: 0px;
+}
+.pad10{
+  padding: 20px;
+}
+.logo{
+  margin-left: 10px; 
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
+#ayar{
+  height: 80px;
+}
+.cerceve{
+  border: 2px solid gray;
+  width: 182px;
+  height: 206px;
+  padding: 1px;
+}
+tr{
+  text-align: center;
+}
+h2{
+  color: white !important;
+  text-align: center;
+  background-color: #17a2b8;
+}
+.row{
+  background-color: white;
+  padding: 20px;
+  margin: 10px;
+}
+ul{
+  list-style-type: none ;
+}
+#sosyal{
+  font-size:xx-large !important;
+}
